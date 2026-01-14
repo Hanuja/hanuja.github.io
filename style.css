@@ -1,0 +1,33 @@
+:root {
+    --cream: #FFF8F0;
+    --rich-black: #0A0A0A;
+    --gold: #C9A66B;
+    --light-gold: #E8D9B5;
+    --dark-gray: #333333;
+    --medium-gray: #666666;
+    --light-gray: #F5F5F5;
+    --card-bg: rgba(255, 255, 255, 0.9);
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--rich-black);
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Add the rest of your CSS here */
